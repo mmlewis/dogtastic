@@ -4,13 +4,15 @@
     <data-source source="LOCAL" name="Rails dogtastic: development" uuid="f7abcea9-d48d-4adb-97ce-5b67e15f26d0">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:dogtastic_development</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/dogtastic_development</jdbc-url>
+      <user-name>ThoughtWorker</user-name>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails dogtastic: test" uuid="26849ecd-0465-43e7-a82b-3e17355bc6c4">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:dogtastic_test</jdbc-url>
+      <user-name>ThoughtWorker</user-name>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails dogtastic: production" uuid="c6828efd-e860-4607-a517-ba8487981d57">
