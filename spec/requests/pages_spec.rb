@@ -2,11 +2,13 @@ require 'spec_helper'
 
 describe "Static pages" do
 
+  let(:base_title) { "Dogtastic" }
+
   describe "Home page" do
 
     it "should have the title 'Home'" do
       visit '/pages/home'
-      expect(page).to have_title('Home')
+      expect(page).to have_title("#{base_title} | Home")
     end
   end
 
@@ -14,7 +16,7 @@ describe "Static pages" do
 
     it "should have the title 'About'" do
       visit '/pages/about'
-      expect(page).to have_title('About')
+      expect(page).to have_title("#{base_title} | About")
     end
   end
 
@@ -22,7 +24,7 @@ describe "Static pages" do
 
     it "should have the title 'Services'" do
       visit '/pages/services'
-      expect(page).to have_title('Services')
+      expect(page).to have_title("#{base_title} | Services")
     end
   end
 
@@ -30,7 +32,7 @@ describe "Static pages" do
 
     it "should have the title 'Contact'" do
       visit '/pages/contact'
-      expect(page).to have_title('Contact')
+      expect(page).to have_title("#{base_title} | Contact")
     end
   end
 end

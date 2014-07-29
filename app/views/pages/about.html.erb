@@ -1,8 +1,38 @@
 <% provide(:title, 'About') %>
 <!DOCTYPE html>
 <html>
-<h1>All About us</h1>
-<p>
-  Meaghan Lewis is the CEO and founder of dogtastic
-</p>
+<section class="success" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>About</h2>
+        <hr class="star-light">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-2">
+        <p>
+          <%= link_to image_tag("me_and_glitch.JPG", alt: "meandmypup") %>
+        </p>
+      </div>
+
+      <div class="col-lg-4">
+        <p>
+          Meaghan Lewis is the founder of Dogtastic.
+        </p>
+        <p>
+          Meaghan was raised with dogs and is very passionate about caring for them.
+          She is an engineer, but at heart, 100% a dog lover who promises the best for all
+          furry friends that she meets. Meaghan loves to bring fun into the time that she
+          spends with her dogs, and encourage the best behavior.
+        </p>
+      </div>
+    </div>
+
+    <!--<div class="align-image-right">-->
+    <!--<%= link_to image_tag("me_and_glitch.JPG", alt: "meandmypup") %>-->
+    <!--</div>-->
+  </div>
+</section>
 </html>

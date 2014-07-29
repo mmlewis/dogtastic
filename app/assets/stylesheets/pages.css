@@ -1,0 +1,62 @@
+/*body {*/
+    /*padding-top: 70px;*/
+/*}*/
+/*.starter-template {*/
+    /*padding: 40px 15px;*/
+    /*text-align: center;*/
+/*}*/
+
+/*.page-content {*/
+    /*float: left;*/
+    /*width: 650px;*/
+    /*height: 335px;*/
+    /*background: #00CCFF;*/
+    /*padding: 20px;*/
+    /*border-radius: 25px;*/
+/*}*/
+
+/*.outer {*/
+    /*position: relative;*/
+    /*height: 100px;*/
+/*}*/
+/*.box {*/
+    /*position: absolute;*/
+    /*width: 30%;*/
+    /*height: 330px;*/
+    /*background: #00CCFF;*/
+    /*padding: 10px;*/
+/*}*/
+/*.one {*/
+    /*left: 0;*/
+/*}*/
+/*.two {*/
+    /*left: 33%;*/
+/*}*/
+/*.three {*/
+    /*left: 66%;*/
+/*}*/
+
+/*.align-image-right {*/
+    /*float: right;*/
+    /*padding: 20;*/
+/*}*/
+
+/*p.main{*/
+    /*text-align: justify;*/
+/*}*/
+
+/*a:link    {color:dodgerblue;}*/
+/*a:active  {color:white;}*/
+
+/*input, textarea, select, .uneditable-input {*/
+    /*border: 1px solid #bbb;*/
+    /*width: 35%;*/
+    /*margin-bottom: 5px;*/
+/*@include box_sizing;*/
+/*}*/
+
+/*input {*/
+    /*height: auto !important;*/
+/*}*/
+
+

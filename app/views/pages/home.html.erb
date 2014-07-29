@@ -1,9 +1,20 @@
 <% provide(:title, 'Home') %>
 <!DOCTYPE html>
 <html>
-<h1>The best thing you can do for you dog</h1>
-<p>
-  This is the home page for the
-  sample application.
-</p>
+<header>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <!--<img class="img-responsive" src="img/profile.png" alt="">-->
+      <%= link_to image_tag("sketch.png", alt: "Walking", class: "img-responsive") %>
+      <div class="intro-text">
+        <span class="name">Dogtastic is Fantastic</span>
+        <p>We are a San Francisco based company dedicated to providing the best for you and your dog.</p>
+        <hr class="star-light">
+        <span class="skills">Walking - Dog Sitting - Washing</span>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
 </html>
